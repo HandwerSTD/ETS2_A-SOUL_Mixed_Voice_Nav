@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{ef0877f2-ba09-411f-8f32-f431fc7e726e}">
+		<property name="overridingInputFormat">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>cabin</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{77fde826-04f7-4c3f-bbc1-d1fd66123f6b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cfae096b-bdd6-4a51-aaa2-de018d35cc91}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e3504ea4-e791-43dd-af0b-beb87e487892}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{77fde826-04f7-4c3f-bbc1-d1fd66123f6b}">
+		<relationship name="effects">
+			<destination>{9d41b1f7-2557-4c9d-ac17-5464a3afc038}</destination>
+			<destination>{1558ed23-546e-4923-b8b9-7d8f1316a6dc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cfae096b-bdd6-4a51-aaa2-de018d35cc91}" />
+	<object class="SFXReverbEffect" id="{9d41b1f7-2557-4c9d-ac17-5464a3afc038}">
+		<property name="decayTime">
+			<value>400</value>
+		</property>
+		<property name="earlyDelay">
+			<value>2</value>
+		</property>
+		<property name="lateDelay">
+			<value>3</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>83</value>
+		</property>
+		<property name="highCut">
+			<value>6050</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>88</value>
+		</property>
+		<property name="wetLevel">
+			<value>-9.39999962</value>
+		</property>
+		<property name="dryLevel">
+			<value>-5</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{1558ed23-546e-4923-b8b9-7d8f1316a6dc}" />
+</objects>

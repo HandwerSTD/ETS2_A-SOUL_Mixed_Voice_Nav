@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{a6fea95d-53c2-4734-b208-9d68bbd9a825}">
+		<property name="overridingInputFormat">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>truck_exhaust</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f6265c2c-9e91-4f52-8a06-278734008879}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b3c60fea-0a3b-4227-94dd-e8f7ddc9a8d6}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5bddde98-7604-4833-81d7-df0b307a4295}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f6265c2c-9e91-4f52-8a06-278734008879}">
+		<relationship name="effects">
+			<destination>{aac89f28-3ff8-4f46-98c2-ee91c510896e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b3c60fea-0a3b-4227-94dd-e8f7ddc9a8d6}" />
+	<object class="MixerBusFader" id="{aac89f28-3ff8-4f46-98c2-ee91c510896e}" />
+</objects>

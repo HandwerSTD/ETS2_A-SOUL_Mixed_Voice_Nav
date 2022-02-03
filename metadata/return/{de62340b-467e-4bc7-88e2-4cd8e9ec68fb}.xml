@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerReturn" id="{de62340b-467e-4bc7-88e2-4cd8e9ec68fb}">
+		<property name="name">
+			<value>window_out</value>
+		</property>
+		<relationship name="automators">
+			<destination>{96416544-05c6-4378-8a2b-583db85a9e94}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{93de995c-d31a-437a-b125-8772ec5eb120}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{874e62e6-9b92-4c31-a03e-39a325270745}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ef0877f2-ba09-411f-8f32-f431fc7e726e}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{96416544-05c6-4378-8a2b-583db85a9e94}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{317afc3f-0dd6-4b1f-8d8b-0d537d481583}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{93de995c-d31a-437a-b125-8772ec5eb120}">
+		<relationship name="effects">
+			<destination>{1976a7c3-a8ad-44df-9183-484c4c755562}</destination>
+			<destination>{6d8e2a21-ed97-4d42-b7ea-9af28e58e728}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{874e62e6-9b92-4c31-a03e-39a325270745}">
+		<property name="surroundPanDirection">
+			<value>14.0362434</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>359.716675</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{317afc3f-0dd6-4b1f-8d8b-0d537d481583}">
+		<relationship name="parameter">
+			<destination>{efa4f115-e095-4b65-997f-24ddd351d0b3}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{00fa7290-9253-49ab-a969-74cad14840b2}</destination>
+			<destination>{6677bf0a-6ab0-4afb-8ad6-9d3b1a649de9}</destination>
+		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{1976a7c3-a8ad-44df-9183-484c4c755562}">
+		<property name="lowGain">
+			<value>-3.5</value>
+		</property>
+		<property name="midGain">
+			<value>-7.5</value>
+		</property>
+		<property name="highGain">
+			<value>-6</value>
+		</property>
+		<property name="lowCrossover">
+			<value>1300</value>
+		</property>
+		<property name="highCrossover">
+			<value>2100</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{6d8e2a21-ed97-4d42-b7ea-9af28e58e728}" />
+	<object class="AutomationPoint" id="{00fa7290-9253-49ab-a969-74cad14840b2}">
+		<property name="position">
+			<value>0.0042372881355932203</value>
+		</property>
+		<property name="value">
+			<value>-6</value>
+		</property>
+		<property name="curveShape">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6677bf0a-6ab0-4afb-8ad6-9d3b1a649de9}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+	</object>
+</objects>

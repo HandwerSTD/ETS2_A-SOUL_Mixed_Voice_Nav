@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{3e376f0a-d2a8-4145-8d7a-7eea18187aa7}">
+		<property name="name">
+			<value>wnd_left</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6aee4a7-eb6a-4d9e-8fe2-9bddaa962be1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e066374f-5e5b-4463-96e9-313c49d45724}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e066374f-5e5b-4463-96e9-313c49d45724}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

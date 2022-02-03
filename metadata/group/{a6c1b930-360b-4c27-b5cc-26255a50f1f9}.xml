@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{a6c1b930-360b-4c27-b5cc-26255a50f1f9}">
+		<property name="overridingInputFormat">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>truck_turbo</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2acbea91-4618-404d-822f-ed406c79e208}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4bfe304c-0c61-405a-b87c-c4872bd7669d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5bddde98-7604-4833-81d7-df0b307a4295}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2acbea91-4618-404d-822f-ed406c79e208}">
+		<relationship name="effects">
+			<destination>{dd4a8b97-7702-4432-883f-1f102a37766b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4bfe304c-0c61-405a-b87c-c4872bd7669d}" />
+	<object class="MixerBusFader" id="{dd4a8b97-7702-4432-883f-1f102a37766b}" />
+</objects>
