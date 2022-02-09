@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{373cf151-f3ab-4b82-b624-11cc029c3308}">
+	<object class="AudioFile" id="{d2d88de5-f64c-4438-9df5-5a0332d76445}">
 		<property name="assetPath">
-			<value>开始.wav</value>
+			<value>自我介绍A.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3.4443537414965988</value>
+			<value>5.852380952380952</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{6823c597-5285-4eea-92e9-487338792da0}</destination>
