@@ -1,6 +1,6 @@
 # A-SOUL 五人混搭导航语音包混搭 Alpha 版本
 
-创意工坊地址：[https://steamcommunity.com/...](https://steamcommunity.com/sharedfiles/filedetails/?id=2740270337)
+创意工坊地址：[https://steamcommunity.com/sharedfiles...](https://steamcommunity.com/sharedfiles/filedetails/?id=2740270337)
 
 本仓库存放工程文件（不含语音源文件，因为涉及到版权问题），同时 issues 区开放给大家提问题和建议
 
@@ -8,15 +8,9 @@
 
 # 问题
 
-[x] 语音未覆盖完全
+部分语音仍旧词不达意
 
-[x] 语音整体声音偏小
-
-[x] roundabout 系列语音音量需要进一步调整
-
-[] roundabout 系列语音需要更好的源文件
-
-[] 部分语音仍旧词不达意
+其他成员音源过少
 
 # 语音使用说明
 
@@ -35,12 +29,12 @@ ABCDE 为成员代号，表格空缺处为否或同上
 | exit_left            | "向左前方行驶。"                     | E        | 是           | 拼接            |                |                        |
 | exit_right           | "向右前方行驶。"                     | E        | 是           | 拼接            |                |                        |
 | go_straight          | "直行。"                             | A        | 尽量         |                 |                |                        |
-| roundabout_1         | "在环形交叉路口，从第一个出口驶出。" | 统一为A  | 是           | 拼接            |                |                        |
-| roundabout_2         | "在环形交叉路口，从第二个出口驶出。" |          | 是           | 拼接            |                |                        |
-| roundabout_3         | "在环形交叉路口，从第三个出口驶出。" |          | 是           | 拼接            |                |                        |
-| roundabout_4         | "在环形交叉路口，从第四个出口驶出。" |          | 是           | 拼接            |                |                        |
-| roundabout_5         | "在环形交叉路口，从第五个出口驶出。" |          | 是           | 拼接            |                |                        |
-| roundabout_6         | "在环形交叉路口，从第六个出口驶出。" |          | 是           | 拼接            |                |                        |
+| roundabout_1         | "在环形交叉路口，从第一个出口驶出。" | 统一为A  |              |                 |                |                        |
+| roundabout_2         | "在环形交叉路口，从第二个出口驶出。" |          |              |                 |                |                        |
+| roundabout_3         | "在环形交叉路口，从第三个出口驶出。" |          |              |                 |                |                        |
+| roundabout_4         | "在环形交叉路口，从第四个出口驶出。" |          |              |                 |                |                        |
+| roundabout_5         | "在环形交叉路口，从第五个出口驶出。" |          |              |                 |                |                        |
+| roundabout_6         | "在环形交叉路口，从第六个出口驶出。" |          |              |                 |                |                        |
 | exit_now             | "驶出环岛。"                         | E        | 尽量         | 声线            |                |                        |
 | prepare_turn_left    | "即将左转。"                         | AA       | 是           | 拼接            |                |                        |
 | prepare_turn_right   | "即将右转。"                         | AA       | 是           | 拼接            |                |                        |
