@@ -60,8 +60,7 @@
 	<object class="MarkerTrack" id="{7a5445a8-fd54-40ae-96f6-6c4179ce78d5}" />
 	<object class="GroupTrack" id="{c4e15e45-e77c-43ef-8335-5a7562c90ac7}">
 		<relationship name="modules">
-			<destination>{a6ec6b87-4ede-4b5f-aa34-62fcbcfc25b4}</destination>
-			<destination>{7104f281-35cb-4b23-b4e2-46b8c1563393}</destination>
+			<destination>{8c3ce2db-c783-4c7c-b78a-348d8010dd60}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{33aa2652-70b2-422f-bda2-b8222293d906}</destination>
@@ -69,8 +68,7 @@
 	</object>
 	<object class="Timeline" id="{959cc944-9913-4f62-8b36-6c3c93e8ae6f}">
 		<relationship name="modules">
-			<destination>{a6ec6b87-4ede-4b5f-aa34-62fcbcfc25b4}</destination>
-			<destination>{7104f281-35cb-4b23-b4e2-46b8c1563393}</destination>
+			<destination>{8c3ce2db-c783-4c7c-b78a-348d8010dd60}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bcddbebf-8153-4123-8aa5-5583d5b733cc}">
@@ -90,29 +88,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{687e542d-7f88-484c-b5bd-27ec5bb63b5e}" />
-	<object class="SingleSound" id="{a6ec6b87-4ede-4b5f-aa34-62fcbcfc25b4}">
+	<object class="SingleSound" id="{8c3ce2db-c783-4c7c-b78a-348d8010dd60}">
 		<property name="length">
-			<value>0.42029478458049885</value>
+			<value>0.94800453514739225</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{ef0f1ba9-6bd6-4fa6-82d7-a4caf05973f4}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{7104f281-35cb-4b23-b4e2-46b8c1563393}">
-		<property name="start">
-			<value>0.5</value>
-		</property>
-		<property name="length">
-			<value>0.45773242630385486</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{ec1ab6ee-e5c9-4863-a5f0-5ac83dc82b02}</destination>
+			<destination>{7cfe6b4a-432a-4d1a-b1b4-6114093f2223}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{33aa2652-70b2-422f-bda2-b8222293d906}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

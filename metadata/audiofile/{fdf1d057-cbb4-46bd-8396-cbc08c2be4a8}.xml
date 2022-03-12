@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{a2a5b5b9-49fa-47d8-bf64-463277cd58fa}">
+	<object class="AudioFile" id="{fdf1d057-cbb4-46bd-8396-cbc08c2be4a8}">
 		<property name="assetPath">
-			<value>靠右.wav</value>
+			<value>然后靠左.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>4.0634920634920633</value>
+			<value>1.2225623582766441</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{6823c597-5285-4eea-92e9-487338792da0}</destination>
